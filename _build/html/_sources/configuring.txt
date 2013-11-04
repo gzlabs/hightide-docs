@@ -1,0 +1,2 @@
+Configuring Hightide application
+================================

@@ -1,0 +1,192 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting Started &mdash; Hightide 1.0.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:'',
+        VERSION:'1.0.0',
+        COLLAPSE_INDEX:false,
+        FILE_SUFFIX:'.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/theme.css" type="text/css" />
+    <script type="text/javascript" src="_static/theme.js"></script>
+  
+
+  
+    <link rel="top" title="Hightide 1.0.0 documentation" href="index.html"/>
+        <link rel="next" title="Using the command line" href="shell.html"/>
+        <link rel="prev" title="Introduction to Hightide" href="intro.html"/> 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> Hightide</a>
+        <form class="wy-form" action="search.html" method="get">
+  <input type="text" name="q" placeholder="Search docs" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to Hightide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installing-hightide">Installing Hightide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-your-first-application">Creating your first application</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="shell.html">Using the command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prototypes.html">Boilerplate-free code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuring.html">Configuring Hightide application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="routing.html">Routing application requests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Working with Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="resources.html#storing-resources-in-a-database">Storing Resources in a database</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processors.html">Processing the requests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="templates.html">Preparing the response</a></li>
+<li class="toctree-l1"><a class="reference internal" href="securing.html">Securing your application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">It&#8217;s all about testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasing.html">Preparing your release</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top">
+        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
+        <a href="/">Hightide</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <ul class="wy-breadcrumbs">
+  <li><a href="index.html">Docs</a> &raquo;</li>
+  <li><a href="">Getting Started</a></li>
+  
+</ul>
+<hr/>
+
+          
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installing-hightide">
+<h2>Installing Hightide<a class="headerlink" href="#installing-hightide" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<p>You need <a class="reference external" href="https://jdk8.java.net/download.html">Java SDK v1.8</a> to run Hightide. Check your current java installation:</p>
+<div class="highlight-python"><pre>$ java -version</pre>
+</div>
+</div>
+<div class="section" id="manual-installation">
+<h3>Manual Installation<a class="headerlink" href="#manual-installation" title="Permalink to this headline">¶</a></h3>
+<p>You can manually download Hightide</p>
+</div>
+<div class="section" id="homebrew-installation-mac-os-x">
+<h3>Homebrew Installation [Mac OS X]<a class="headerlink" href="#homebrew-installation-mac-os-x" title="Permalink to this headline">¶</a></h3>
+<p>For mac users you can also install Hightide using <a class="reference external" href="http://brew.sh/">Homebrew</a>:</p>
+<div class="highlight-python"><pre>$ brew install hightide</pre>
+</div>
+</div>
+</div>
+<div class="section" id="creating-your-first-application">
+<h2>Creating your first application<a class="headerlink" href="#creating-your-first-application" title="Permalink to this headline">¶</a></h2>
+<p>Once the installation is over you can check that hightide is successfully installed using the following command:</p>
+<div class="highlight-python"><pre>$ hightide</pre>
+</div>
+<p>You should see something like the following output:</p>
+<div class="highlight-python"><pre>    __  ___       __    __  _     __
+   / / / (_)___ _/ /_  / /_(_)___/ /__
+  / /_/ / / __ `/ __ \/ __/ / __  / _ \
+ / __  / / /_/ / / / / /_/ / /_/ /  __/
+/_/ /_/_/\__, /_/ /_/\__/_/\__,_/\___/
+        /____/
+
+
+hightide&gt;</pre>
+</div>
+<p>You can now create a new Hightide application from Hightide&#8217;s shell prompt:</p>
+<div class="highlight-python"><pre>hightide&gt; new mynewapp</pre>
+</div>
+<p>or straight from your command line prompt:</p>
+<div class="highlight-python"><pre>$ hightide new mynewapp</pre>
+</div>
+<blockquote class="pull-quote">
+<div><strong>NOTE:</strong> All Hightide commands can be executed either from Hightide&#8217;s shell or command line <a class="footnote-reference" href="#f1" id="id1">[1]</a>. More information on Hightide Shell available <a class="reference internal" href="shell.html"><em>here</em></a></div></blockquote>
+<p>The above command will create a new directory named <tt class="docutils literal"><span class="pre">mynewapp</span></tt> and all necessary files to run a Hightide application, using the default Hightide prototype.</p>
+<p><a class="reference internal" href="prototypes.html"><em>Application prototypes</em></a> is a very usefull concept and the default way of making a new application in Hightide.</p>
+<table class="docutils footnote" frame="void" id="f1" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Except the <tt class="docutils literal"><span class="pre">exit</span></tt> command!</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          <footer>
+  <hr/>
+      &copy; Copyright 2013, Ground Zero Labs.
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+</body>
+</html>
