@@ -22,7 +22,7 @@ For mac users you can also install Hightide using `Homebrew`_::
 
 Creating your first application
 -------------------------------
-Once the installation is over you can check that hightide is successfully installed using the following command::
+Once you're done with the installation, check if Hightide is successfully installed using the following command::
 
    $ hightide
 
