@@ -12,7 +12,9 @@ You need `Java SDK v1.8`_ to run Hightide. Check your current java installation:
 
 Manual Installation
 ^^^^^^^^^^^^^^^^^^^
-You can manually download Hightide 
+You can manually `download <https://oss.sonatype.org/content/repositories/snapshots/io/hightide/hightide-dist/0.1-SNAPSHOT/hightide-dist-0.1-20140114.085511-2-distribution.zip>`_ Hightide's distribution and extract it on your preferred directory.
+You will need to setup ``HIGHTIDE_HOME`` environment variable and add distibution's ``/bin`` directory to your ``PATH`` variable.
+
 
 Homebrew Installation [Mac OS X]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
